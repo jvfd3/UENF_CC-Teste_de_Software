@@ -1,10 +1,10 @@
 # Aulas
 
-## Aula 1 - 06/03/23 - [..., ...] - Não teve
+## Aula 1 - 06/03/23 - [....., .....] - Não teve
 
 O professor não sabia que daria aula
 
-## Aula 2 - 08/03/23 - [..., ...] - Faltei
+## Aula 2 - 08/03/23 - [....., .....] - Faltei
 
 Ele perguntou o que queremos que ele dê
 
@@ -16,7 +16,7 @@ Ele perguntou o que queremos que ele dê
 [10:39, 08/03/2023] ⠀: "Testes de código on deploy"
 [10:53, 08/03/2023] Daniel Brito dos Santos UENF CC: Falei com ele! 👍
 
-## Aula 3 - 13/03/23 - [..., ...] - Ele não vai dar aula por estar gripado
+## Aula 3 - 13/03/23 - [....., .....] - Ele não vai dar aula por estar gripado
 
 > João Luiz de Almeida Filho
 > Criado em: 19:4319:43
@@ -25,13 +25,13 @@ Ele perguntou o que queremos que ele dê
 >
 > obrigado
 
-## Aula 4 - 15/03/23 - [..., ...] - Ele não vai dar aula por estar gripado
+## Aula 4 - 15/03/23 - [....., .....] - Ele não vai dar aula por estar gripado
 
 > João Luiz de Almeida Filho
 > Criado em: 14 de mar.14 de mar.
 > Turma, continuo doente. A aula de amanhã está suspensa.
 
-## Aula 5 - 20/03/23 - [10h15, ...] -
+## Aula 5 - 20/03/23 - [10h15, .....] -
 
 ### Comentários sobre a lista 1
 
@@ -183,10 +183,48 @@ O software hoje é um serviço.
 
 ### Referências
 
-## Aula 8 - 29/03/23 - [10h54, 11h...] - Cheguei tarde, a porta estava trancada
+## Aula 8 - 29/03/23 - [10h54, 11h..] - Cheguei tarde, a porta estava trancada
 
 ...
 
-## Aula 9 - 03/04/23 - [10h, 11h]
+## Aula 9 - 03/04/23 - [10h20, 11h20] - apresentação de trabalhos
 
-## Aula 10 - 05/04/23 - [10h, 11h]
+Grupos:
+
+- Daniel Brito, Daniel Terra, João Dias
+  - Python, pytest e unittesting
+- Daniel de Faria, Javier, José Lucio
+  - Java, Kotlin
+- Larissa, Bosco, Jhonatan
+  - Todos faltaram
+
+## Aula 10 - 05/04/23 - Faltei por gripe
+
+## Aula 11 - 10/04/23 - Faltei por gripe
+
+Apresentação de Larissa, Jhonatan e Bosco
+
+## Aula 12 - 12/04/23 - [10h07, .....]
+
+Revisando as respostas feitas
+testers testam testes de unidade
+quem realiza o teste de usabilidade é o usuário final
+Pesquisar sobre Selenium
+
+problemas:
+  Manter os testes;
+  demora para executar a bateria de testes;
+  Cobertura de testes ser insuficiente ou difícil de definir.
+
+A microsoft usa o teste de regressão como a primeira linha de defesa contra bugs
+
+periodização de casos de teste
+
+- Como funciona
+- Fazer um exemplo
+- Como pode ser aplicado no ciclo de vida do software
+- Apresenta
+
+## Aula 13 - 17/04/23 - [10h07, .....]
+
+## Aula 14 - 19/04/23 - [10h07, .....]
