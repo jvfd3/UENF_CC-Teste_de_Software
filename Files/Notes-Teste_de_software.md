@@ -204,7 +204,7 @@ Grupos:
 
 Apresentação de Larissa, Jhonatan e Bosco
 
-## Aula 12 - 12/04/23 - [10h07, .....]
+## Aula 12 - 12/04/23 - [10h07, 11h51]
 
 Revisando as respostas feitas
 testers testam testes de unidade
@@ -225,6 +225,8 @@ periodização de casos de teste
 - Como pode ser aplicado no ciclo de vida do software
 - Apresenta
 
-## Aula 13 - 17/04/23 - [10h07, .....]
+## Aula 13 - 17/04/23 - [10h11, 11h52]
+
+Desenvolvimento da lista 2 em sala de aula.
 
 ## Aula 14 - 19/04/23 - [10h07, .....]
