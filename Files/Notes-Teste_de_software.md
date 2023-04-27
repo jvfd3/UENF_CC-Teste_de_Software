@@ -227,6 +227,32 @@ periodização de casos de teste
 
 ## Aula 13 - 17/04/23 - [10h11, 11h52]
 
+Desenvolvimento da lista 2 com testes de software em sala de aula.
+
+## Aula 14 - 19/04/23 - [10h07, 11h18]
+
 Desenvolvimento da lista 2 em sala de aula.
 
-## Aula 14 - 19/04/23 - [10h07, .....]
+## Aula 15 - 24/04/23 - [10h09, ]
+
+- 4 avaliações
+  - 2 provas teóricas:
+    - 26/04/23 P1 - Conteúdos
+      - Sites que ele mandou
+        - apostila que fizemos
+      - 28/06/23 - P2
+        - ...
+  - 1 prática: trabalho final
+  - 1 conjunto de trabalhos
+    - T1 - 
+    - T2 - 
+    - T3 - 
+    - 
+    - 
+    - 
+    - 
+    
+- nota final = (P1 + P2 + Prat. + Trabs.)/4
+
+Bosco apresenta sobre VSCode
+Larissa, Jhonatan e Bosco apresentam Selenium
