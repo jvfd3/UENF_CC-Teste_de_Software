@@ -127,7 +127,7 @@ A peça que sai da linha de montagem segue as mesmas especificações do projeto
   - Trabalho manual
   - Porém evita o custo de retrabalho e danos morais e materiais
 
-POG: programação orientada a gambiarra
+POG: Programação Orientada a Gambiarra
 
 De que forma equilibrar a eficiência do desenvolvimento e a qualidade do que foi desenvolvido?
 Tente sempre manter a melhor qualidade, mas aceitando concessões para obter maior eficiência. Isso entra dentro da análise de risco.
@@ -140,34 +140,40 @@ O que define a qualidade do produto?
 Qual a relação da qualidade e custo?
 O software hoje é um serviço.
 
-## Aula 7 - 27/03/23 - [10h23, 11h28] -Respondendo perguntas
+## Aula 7 - 27/03/23 - [10h23, 11h28] -Respondendo perguntas [Apostila](https://docs.google.com/document/d/1wbnmoGzWWBgKSaPYDsMxYACfv5womQQIU-6XvRjTW5M/edit)
 
 ### 1. O que é qualidade do produto e qual a sua relação com os softwares?
 
-1. A qualidade do produto é o processo de garantir e assegurar que seu funcionamento esteja correto e atenda os requisitos predeterminados.  
+1. A qualidade do produto é o processo de garantir e assegurar que seu funcionamento esteja correto e atenda os requisitos predeterminados.
 2. Qualidade de software segue os mesmos princípios,
 3. Identificar os bugs o quanto antes trará um bom custo-benefício pois o custo de consertá-los será menor.
 4. [The Relationships between Software Development Processes and Software Product Quality](https://www.researchgate.net/publication/300710746_The_Relationships_between_Software_Development_Processes_and_Software_Product_Quality)
    1. Existem diversas visões quanto à qualidade, cada uma delas válida em um determinado contexto.
-   2. Segundo o padrão ISO 9000:2005 qualidade é definida como “o grau ao qual um conjunto de características inerentes cumprem os requisitos” ou “cumprem uma necessidade ou expectativa que foi definida, geralmente implícita ou obrigatória”
+   2. Segundo o padrão ISO 9000:2005 qualidade é definida como "o grau ao qual um conjunto de características inerentes cumprem os requisitos" ou "cumprem uma necessidade ou expectativa que foi definida, geralmente implícita ou obrigatória"
 5. Métricas de Qualidade:
    1. Com o estudo das necessidades dos clientes, coleta de requisitos e a medição e gerenciamento de satisfação do cliente temos o Customer Focus, que é uma qualidade de produto.
    2. Reduzindo as variações de processo e atingindo melhoria da qualidade contínua, tem-se qualidade reforçada do produto (Process Improvement).
    3. Human Side of Quality: Cultura de qualidade de toda a empresa, incluindo liderança, apoio de alta gerência, inclusão de todos os colaboradores.
+6. "Para a ISO 9000 e 9001, qualidade significa adequação e conformidade a normas e requisitos previamente estabelecidos." [Fonte](https://www.siteware.com.br/qualidade/iso-9000/), considerando os benefícios de se atender a um padrão previamente estabelecido e mundialmente reconhecido, pode-se considerar que esta conformidade tende a ser positiva também no desenvolvimento de softwares, visto que eles seguirão boas normas bem definidas segundo algum conjunto de regras.
 
 ### 2. Como testes de software podem garantir a qualidade do software?
 
-1. Permitem identificar erros. Ou seja, os testes evidenciam a diferença entre o esperado e o obtido.
-2. Evidenciam desalinhamentos entre o que se espera e o que é obtido.
-3. Garantem a estabilidade do software
-4. Permite refinar o software aumentando sua confiabilidade e desempenho para os usuários final
-5. Verificar se os requisitos funcionais e não-funcionais foram implementados corretamente
+1. Considerando "erro" como a diferença entre o que se esperava e o que foi obtido, podemos definir teste como o processo de identificar erros.
+2. Permitem identificar erros. Ou seja, os testes evidenciam a diferença entre o esperado e o obtido.
+3. Dessa forma, testes podem garantir a qualidade ao ressaltar defeitos e requisitos não atendidos permitindo que sejam corrigidos.
+4. Em linhas gerais, quanto maior a cobertura de testes, mais confiável é o software.
+5. Garantem a estabilidade do software
+6. Permite refinar o software aumentando sua confiabilidade e desempenho para os usuários final
+7. Verificar se os requisitos funcionais e não-funcionais foram implementados corretamente
 
 ### 3. Explique os tipos de testes funcionais e os não funcionais
 
 1. Testes funcionais são resumidamente verificar se a aplicação está apta a realizar as funções na qual foi desenvolvida para fazer. Testes não-funcionais tem como objetivo testar aspectos do software que não são associados a funcionalidades mas sim a restrições. Tais testes visam verificar os requisitos que tendem a ser aqueles que “inspiram” a qualidade do sistema. Ex: escalabilidade, desempenho, segurança.
 2. Os requisitos funcionais especificam o que um sistema deve fazer, enquanto os requisitos não funcionais descrevem como ele fará isso.
-3. Testes funcionais são conhecidos como testes de caixa preta. Ou seja, são testes que consideram o software como uma função e analisa suas entradas e saídas (domínio) e [analisar se isso é verdade]
+3. A principal técnica utilizada nos testes funcionais é a de particionamento de equivalência, cujo objetivo é dividir as entradas de valores em subconjuntos, de acordo com as funcionalidades do software, com o objetivo específicos(Por exemplo, inserir dados para validar a inserção dos mesmos). Visa aumentar a confiabilidade do software.
+4. Outra técnica é a Análise do Valor Limite, que é uma extensão do particionamento de equivalência, usada para exercitar os limites do domínio de entrada. Visa descobrir a maior quantidade de defeitos possíveis com o menor esforço possível.
+5. Exemplos de testes não funcionais são o teste de carga e estresse, que visam testar a confiabilidade e segurança do software, além de testar os limites da aplicação, submetendo-a a situações complicadas para avaliar o seu desempenho.
+6. Além dos testes funcionais, existem também os testes estruturais que envolvem o [Teste de Fluxo de Controle](https://www.inf.pucrs.br/~zorzo/sd/TesteFluxoDeControle.pdf) que consiste em criar uma abstração do código em formato de gráfico de tal forma que todos os fluxos possíveis estejam descritos, em seguida definir testes tais que todos os nós do grafo sejam alcançados. Existem também os [testes de aceitação](https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/acceptance_testing_12A0F152.html) que averiguam se o software desenvolvido está apropriado para uso dos usuários finais. Já o [teste de unidade](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/testes-de-unidade_v01.pdff) visa focar na menor unidade possível de código, testando diversos inputs e checando se os outputs desta unidade estão de acordo com o esperado.
 
 ### 4. Explique o que são os testes Caixa branca, Caixa preta e caixa cinza? Como eles se aplicam aos testes de software e quais ferramentas podem ser utilizadas para isto?
 
@@ -179,7 +185,38 @@ O software hoje é um serviço.
 
 ### 5. Em qual tipo de teste (caixa branca, caixa preta ou caixa cinza) se enquadram os testes automatizados?
 
-[Kenzie](https://kenzie.com.br/blog/testes-automatizados/) “Testes automatizados são programas que executam testes em softwares que estão em construção de uma forma padronizada, sem ser necessário a intervenção humana.” Com isso, podemos considerar que os testes automatizados podem ser aplicados para todos os três tipos de testes.
+[Kenzie](https://kenzie.com.br/blog/testes-automatizados/) "Testes automatizados são programas que executam testes em softwares que estão em construção de uma forma padronizada, sem ser necessário a intervenção humana." Com isso, podemos considerar que os testes automatizados podem ser aplicados para todos os três tipos de testes.
+
+### 6. Defina testes de funcionalidades (De unidade, Integração, Verificação de "Sanidade", regressão e usabilidade) e relacionar com as linguagens de programação
+
+- Testes de funcionalidades verificam se o software funciona de acordo com as especificações requeridas. Eles tem como objetivo encontrar falhas e erros na funcionalidade esperada do software. Dentre os testes de funcionalidade, podemos ressaltar:
+- Testes de unidade. Usados para testar isoladamente pequenas partes do código fonte e garantir que estejam funcionando corretamente. Normalmente são escritos pelo desenvolvedor e executados automaticamente.
+- Testes de integração testam como diferentes partes do sistema funcionam juntas. Geralmente testam a integração de módulos e componentes e também são executados automaticamente.
+- Testes de regressão verificam a estabilidade de todas as áreas afetadas por qualquer alteração no código (se os cenários que funcionavam continuam funcionando). Normalmente são executados automaticamente.
+- Testes de sanidade são um subconjunto dos testes de regressão para verificação rápida que normalmente são executados manualmente e se concentram em certas funcionalidades.
+- Testes de usabilidade verificam se um sistema é fácil de usar, intuitivo e satisfatório para o usuário final. Normalmente envolve usuários reais com observação e coleta de feedback.
+
+Em Python utilizamos principalmente os Test Runners: unittest e pytest para construir e executar rotinas de testes automatizados.
+
+#### Jest
+
+Jest é um framework de teste de JavaScript moderno e fácil de usar, criado pelo Facebook. O Jest é conhecido por sua velocidade de execução e sua capacidade de rodar testes paralelamente.
+Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e etc.
+Ele suporta testes assíncronos e síncronos, e oferece recursos como geração de relatórios, rastreamento de código de origem e cobertura de código.
+Alguns tipos de testes:
+
+- Teste de unidades de código: Testar funções e módulos individuais em um projeto JavaScript, garantindo que cada parte do código esteja funcionando corretamente antes de integrá-las ao projeto como um todo.
+- Teste de API: Testar APIs de back-end, verificando se a resposta da API está correta para diferentes aprovações.
+- Teste de interface do usuário: Testar a interface do usuário de aplicativos da web, simulando cliques do usuário em botões e verificando se a interface do usuário está respondendo corretamente.
+- Teste de integração: Testar a integração de diferentes partes do código em um projeto. Por exemplo, podemos testar como o front-end e o back-end interagem entre si, ou como diferentes módulos em um projeto se comunicam.
+- Teste de cobertura de código: Gerar relatório de cobertura de código, que mostra quanto do código do projeto foi testado.
+
+##### Referências
+
+- [Diferentes tipos de testes de software](https://www.atlassian.com/br/continuous-delivery/software-testing/types-of-software-testing)
+- [Getting Started with Python Testing](https://realpython.com/python-testing/)
+- [Qual é a diferença entre testes de sanidade e regressão](https://pt.differbetween.com/article/what_is_the_difference_between_sanity_and_regression_testing)
+- [O que são testes de unidade, testes de integração, testes de fumaça e testes de regressão?](https://qastack.com.br/programming/520064/what-are-unit-tests-integration-tests-smoke-tests-and-regression-tests)
 
 ### Referências
 
@@ -212,9 +249,10 @@ quem realiza o teste de usabilidade é o usuário final
 Pesquisar sobre Selenium
 
 problemas:
-  Manter os testes;
-  demora para executar a bateria de testes;
-  Cobertura de testes ser insuficiente ou difícil de definir.
+
+- Manter os testes;
+- demora para executar a bateria de testes;
+- Cobertura de testes ser insuficiente ou difícil de definir.
 
 A microsoft usa o teste de regressão como a primeira linha de defesa contra bugs
 
@@ -244,15 +282,18 @@ Desenvolvimento da lista 2 em sala de aula.
         - ...
   - 1 prática: trabalho final
   - 1 conjunto de trabalhos
-    - T1 - 
-    - T2 - 
-    - T3 - 
-    - 
-    - 
-    - 
-    - 
-    
+    - T1 - x
+    - T2 - x
+    - T3 - x
+    - x
+    - x
+    - x
+    - x
 - nota final = (P1 + P2 + Prat. + Trabs.)/4
 
 Bosco apresenta sobre VSCode
 Larissa, Jhonatan e Bosco apresentam Selenium
+
+### Aula 16 - 26/04/23 - Não teve aula - Professor avisou que faltaria
+
+### Aula 17 - 03/05/23 - [....., .....]
